@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+.bg-merah {
+	background-color:rgba(255,0,4,1.00) ;
+}
+.bg-kuning {
+	background-color:rgba(248,255,3,1.00) ;
+}
+
+.bg-putih {
+	background-color:#FFFFFF ;
+}
+.bg-orange {
+	background-color: #FFB600;
+}
+.bg-hijau {
+	background-color: green ;
+}
+.bg-gelap {
+background-color: #AFAFAF;	
+}
+.bg-background {
+background-color: #D4D6D7;	
+}
+.bg-table {
+	background-color: #F5F5F5;
+}

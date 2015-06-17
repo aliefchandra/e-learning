@@ -1,0 +1,282 @@
+@charset "utf-8";
+/* CSS Document */
+
+.ubah-class {
+	display:block ;
+	}
+/* Properti */
+	.no-radius {
+		border-radius: 0px !important;
+	}
+	/*---margin---*/
+	.no-margin {
+		margin: 0px !important;
+	}
+	.no-top-bottom-margin {
+		margin-top: 0px !important ;
+		margin-bottom: 0px !important ;
+	}
+	.no-left-right-margin {
+		margin-left: 0px !important ;
+		margin-right: 0px !important ;
+	}
+	.no-top-margin {
+		margin-top: 0px !important ;
+		}
+	.no-bottom-margin {
+		margin-bottom: 0px !important ;
+		}
+	.no-left-margin {
+		margin-left: 0px !important ;
+		}
+	.no-right-margin {
+		margin-right: 0px !important ;
+		}
+	/*---padding---*/
+	.no-padding {
+		padding: 0px !important ;
+	}
+	.no-top-bottom-padding {
+		padding-top: 0px !important ;
+		padding-bottom: 0px !important ;
+	}
+	.no-border {
+		border:none !important ;
+	}
+	.no-left-right-padding {
+		padding-left: 0px !important ;
+		padding-right: 0px !important ;
+	}
+	.no-top-padding {
+		padding-top: 0px !important ;
+		}
+	.no-bottom-padding {
+		padding-bottom: 0px !important ;
+		}
+	.no-left-padding {
+		padding-left: 0px !important ;
+		}
+	.no-right-padding {
+		padding-right: 0px !important ;
+		}
+		
+	/*List Style*/
+	.ul-list {
+		list-style:none ;
+	}
+	.ul-list > li {
+		display:inline-block ;
+		
+	}
+	.ul-list > img {
+		width: 30% ;
+	}
+	.li-btn {
+		margin-right: 0px ;
+	}
+/* ---------------Tekt Atribut-------------------- */
+.center-text {
+	text-align: center ;
+}
+.right-text {
+	text-align: right ;
+}
+.left-text {
+	text-align: left ;
+}
+.justify-text {
+	text-align:justify ;
+}
+
+/*------------Border Atribut------------ */
+.left-border {
+		border-left: 1px solid #D9D8D8 !important ;
+	}
+	.right-border {
+		border-right: 1px solid #D9D8D8 !important  ;
+	}
+	.top-border {
+		border-top: 1px solid #D9D8D8 !important ;
+	}
+	.bottom-border {
+		border-bottom: 1px solid #D9D8D8 !important ;
+	}
+	.all-border {
+		border: 1px solid #D9D8D8 !important ;
+	}
+	
+/* ----------------------------------- */
+	.logo-padding {
+		padding: 5px !important;
+	}
+	.form-padding {
+		margin-top: 6px !important;
+		margin-left: 3px !important;
+	}
+	.lebar-inputsearch {
+		max-width: 100px !important;
+	}
+	.bungkus-cekongkir {
+		background-color: #DBD8D8 ;
+		padding: 3px;
+		
+	}
+	.cek-ongkir {
+		margin-bottom: 5px !important ;
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-left: 3px ;
+		padding-right: 0px;
+	}
+	.cek-ongkir-btn {
+		margin-bottom: 2px;
+
+	}
+	.cek-traking {
+		margin-bottom: 5px !important ;
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-left: 3px ;
+		padding-right: 0px;
+	}
+	
+	
+	.cek-resi {
+		margin-left: -25px !important ;
+	}
+	.input-text-cek-resi {
+		width: 130px !important ;
+	}
+	@media screen and (max-width: 768px) {
+    .show-search {
+		display: none;
+	}
+}
+
+/* ---------------------------------cek ongkir form-------------------------------------------------------*/
+    .input-group-addon
+{
+
+    color: rgb(255, 255, 255);
+}
+.form-control:focus
+{
+   
+}
+.pannel-body-edit {
+	padding: 0px 7px 1px 7px !important;
+}
+.form-grub-cek-ongkir-edit {
+	margin-bottom: 5px !important;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------*/
+.panel-margin{
+	margin-bottom: 3px;
+	}
+
+<!-------------------------------------Kontak Sosmed Rekening    -->
+.panel-heading-kontak {
+		padding: 2px 15px !important;
+		text-align:center; 
+	}
+	.f {
+		font-size: 18px ;
+		padding: 0px;
+	}
+	.f::before {
+		content: url(img/icon.png);
+	}
+	.panel-body-edit {
+		padding: 8px 10px 3px 10px;
+	}
+	.margin-icon{
+		padding-right: 15px !important;
+		padding-left: 10px !important;
+		}
+		.margin-icon > figcaption {
+			text-align:center ;
+		}
+/* button Navbar */
+.btn-navbar-kategori {
+padding-top: 9px !important;
+padding-bottom: 0px !important;
+padding-left: 0px !important ;
+margin-left: -7px;
+margin-right: -8px;
+}
+
+.div-br {
+		min-height: 55px;
+	}
+	.media-kategori-padding {
+		margin-top: 4px !important;
+	}
+	.navbar-li-a {
+		padding-left: 1px !important;
+		padding-right: 7px !important;
+	}
+/*----------Modal Popup Javascript edit bootstrap-------*/
+.modal-edit {
+	width:400px;
+}
+/* Bungkus Baru*/
+	.bungkus {
+	  margin :5px 0px;
+	  background-color: #fff;
+	  border: 1px solid transparent;
+	  border-radius: 2px;
+	  
+		margin-right: 0px;
+	}
+	.bungkus-judul {
+		padding: 3px 15px;
+	}
+	.bungkus-isi {
+		padding: 3px 15px;
+	}
+	.bungkus-garis {
+		border-bottom: 2px solid #EDECEC; 
+	}
+	.bungkus-batas {
+		margin: 0px 30px ;
+		border-bottom: 1px solid #EDECEC; 
+	}
+	.bungkus-kaki {
+		padding: 3px 15px;
+		border-top: 1px #E4DFDF solid ;
+		background-color:#EBEBEB ;
+	}
+	
+	.bungkus > img {
+		width: 100% ;
+		padding: 3px ;
+	}
+
+/*------ Tab -------- */
+
+.tab-edit > li {  /* Taruh di samping Nav-Tab*/
+    margin-bottom: 0px !important;
+	text-align:center !important;
+	padding-left: 0px !important ;
+	padding-right: 0px !important;
+	border-top: 1px solid rgb(221, 221, 221) !important;
+}
+.tab-edit > li > a {  /* Taruh di samping Nav-Tab*/
+	border-radius: 0px !important;
+	border: none !important;
+}
+.tab-edit > li > a {
+    padding: 5px 15px !important; 
+}
+.nav-tabs > li.active {
+	border-bottom: 2px solid rgb(150, 204, 255);
+	
+}
+.nav-tabs > li.active > a, a:visited {
+	color: rgb(150, 204, 255); 
+	font-weight: bold;
+}
+
+
